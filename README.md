@@ -68,7 +68,7 @@ This is a Python-based graphical user interface (GUI) application for scanning d
 - **No Spinner Animation:** Make sure the `spinner.gif` file is correctly placed in the script directory and is a valid GIF file.
 
 ## More contect
-- Also checkout ``scanImage.p`` if you already have a installed software for the scanner.  
+- Also checkout ``scanImage.py`` if you already have a installed software for the scanner.  
 
 ## Contact
 
