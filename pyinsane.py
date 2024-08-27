@@ -48,6 +48,9 @@ class ScannerApp(QWidget):
         # UI Elements
         self.setWindowTitle("Scanner Application")
 
+        # Resize application window
+        self.resize(300, 200) # w, l
+
         # Scanner dropdown
         self.scanner_label = QLabel("Select Scanner:")
         self.scanner_dropdown = QComboBox(self)
