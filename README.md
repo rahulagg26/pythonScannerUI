@@ -14,22 +14,21 @@ This is a Python-based graphical user interface (GUI) application for scanning d
 
 ## Requirements
 
-- Python 3.x
-- PyQt5
-- pyinsane2
+- Python 3.9.19
+- requirements.txt
 
 ## Installation
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/rahulagg26/pythonScannerUI.git
+   cd pythonScannerUI
    ```
 
 2. **Install Dependencies:**
 
-   Ensure you have Python 3.x installed. Then, install the required Python packages:
+   Ensure you have Python 3.9.19 installed. Then, install the required Python packages from requirements.txt
 
    ```bash
    pip install PyQt5 pyinsane2
@@ -44,7 +43,7 @@ This is a Python-based graphical user interface (GUI) application for scanning d
 1. **Run the Application:**
 
    ```bash
-   python scanner_app.py
+   python pyinsane.py
    ```
 
 2. **Using the Application:**
@@ -58,7 +57,7 @@ This is a Python-based graphical user interface (GUI) application for scanning d
 
 ## Code Overview
 
-- **`scanner_app.py`:** The main script for the application. It initializes the GUI, handles user interactions, and manages the scanning process.
+- **`pyinsane.py`:** The main script for the application. It initializes the GUI, handles user interactions, and manages the scanning process.
 
 - **`ScanThread`:** A `QThread` subclass that performs the scanning operation in a separate thread, keeping the GUI responsive.
 
